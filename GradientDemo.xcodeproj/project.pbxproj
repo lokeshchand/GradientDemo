@@ -12,6 +12,9 @@
 		DA7456DE20B6807A000B57EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7456DC20B6807A000B57EC /* Main.storyboard */; };
 		DA7456E020B6807A000B57EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7456DF20B6807A000B57EC /* Assets.xcassets */; };
 		DA7456E320B6807A000B57EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7456E120B6807A000B57EC /* LaunchScreen.storyboard */; };
+		DA7456EB20B6838A000B57EC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7456EA20B6838A000B57EC /* GradientView.swift */; };
+		DA7456EE20B6935F000B57EC /* RadialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7456ED20B6935F000B57EC /* RadialVC.swift */; };
+		DA7456F020B69B85000B57EC /* RadialGradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7456EF20B69B85000B57EC /* RadialGradiantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DA7456DF20B6807A000B57EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA7456E220B6807A000B57EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7456E420B6807A000B57EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7456EA20B6838A000B57EC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DA7456ED20B6935F000B57EC /* RadialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialVC.swift; sourceTree = "<group>"; };
+		DA7456EF20B69B85000B57EC /* RadialGradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradiantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		DA7456D720B6807A000B57EC /* GradientDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DA7456EC20B69300000B57EC /* RadialVC */,
 				DA7456D820B6807A000B57EC /* AppDelegate.swift */,
 				DA7456DA20B6807A000B57EC /* ViewController.swift */,
+				DA7456EA20B6838A000B57EC /* GradientView.swift */,
 				DA7456DC20B6807A000B57EC /* Main.storyboard */,
 				DA7456DF20B6807A000B57EC /* Assets.xcassets */,
 				DA7456E120B6807A000B57EC /* LaunchScreen.storyboard */,
 				DA7456E420B6807A000B57EC /* Info.plist */,
 			);
 			path = GradientDemo;
+			sourceTree = "<group>";
+		};
+		DA7456EC20B69300000B57EC /* RadialVC */ = {
+			isa = PBXGroup;
+			children = (
+				DA7456ED20B6935F000B57EC /* RadialVC.swift */,
+				DA7456EF20B69B85000B57EC /* RadialGradiantView.swift */,
+			);
+			path = RadialVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7456DB20B6807A000B57EC /* ViewController.swift in Sources */,
+				DA7456F020B69B85000B57EC /* RadialGradiantView.swift in Sources */,
 				DA7456D920B6807A000B57EC /* AppDelegate.swift in Sources */,
+				DA7456EB20B6838A000B57EC /* GradientView.swift in Sources */,
+				DA7456EE20B6935F000B57EC /* RadialVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
